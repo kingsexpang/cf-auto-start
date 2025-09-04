@@ -55,13 +55,7 @@ jobs:
         CF_SPACE_1: ${{ secrets.CF_SPACE_1 || 'dev' }}# 可选，默认dev
         CF_APPS_1: ${{ secrets.CF_APPS_1 }}          # 读取 GitHub Secret: CF_APPS_1
         # --------------------------
-        # CF 账号2配置（如果没有，可删除这部分）
-        # --------------------------
-        CF_USERNAME_2: ${{ secrets.CF_USERNAME_2 }}
-        CF_PASSWORD_2: ${{ secrets.CF_PASSWORD_2 }}
-        CF_ORG_2: ${{ secrets.CF_ORG_2 }}
-        CF_SPACE_2: ${{ secrets.CF_SPACE_2 || 'dev' }}
-        CF_APPS_2: ${{ secrets.CF_APPS_2 }}
+       
         # --------------------------
         # Telegram 配置（如果需要通知，保留）
         # --------------------------
